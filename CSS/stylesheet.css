@@ -8,3 +8,9 @@ body {
 
   color: white;
 }
+.Title {
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Yellowtail', cursive;
+  background-color: rgba(0, 0, 0, 0.5);
+}
