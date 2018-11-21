@@ -8,9 +8,37 @@ body {
   text-align: center;
   color: white;
 }
+
 .Title {
   text-align: center;
   font-size: 100px;
   font-family: 'Yellowtail', cursive;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.matcher_wrapper {
+  margin-top: 060px;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-bottom: 60px;
+  background-image: url("../images/compatabilitybackground.jpg");
+  }
+.matcher {
+    margin: 0;
+    background: ;
+    background-size: contain;
+    }
+.matcher_outer {
+  padding: 20px 20px 10px;
+  padding-top: 65px;
+  overflow: hidden;
+  }
+.matcher h3 {
+  font-size: 20px;
+  margin-bottom: 15px ;
+  line-height: 1;
+  text-align: center;
+  }
+button {
+  margin: 10px;
 }
