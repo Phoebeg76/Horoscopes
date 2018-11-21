@@ -5,13 +5,26 @@ body {
   background-repeat: no-repeat;
   min-width: 100%;
   min-height: 700px;
-
   color: white;
 }
 
-.Title {
-  text-align: center;
+.title {
   font-size: 100px;
-  font-family: 'Yellowtail', cursive;
+}
+
+.title-date {
   background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Yellowtail', cursive;
+  text-align: center;
+}
+
+.date {
+  font-size: 50px;
+}
+
+.col {
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 0 auto;
+
 }
