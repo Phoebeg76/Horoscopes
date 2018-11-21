@@ -1,3 +1,4 @@
+/*background and text colour*/
 body {
   background-image: url("../images/backgroundd.jpg");
   background-size: cover;
@@ -8,6 +9,7 @@ body {
   color: white;
 }
 
+/*date and title style*/
 .title {
   font-size: 100px;
 }
@@ -16,15 +18,52 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   font-family: 'Yellowtail', cursive;
   text-align: center;
+  padding: 10px;
 }
 
 .date {
   font-size: 50px;
 }
 
-.col {
-  padding-left: 80px;
-  padding-right: 80px;
-  margin: 0 auto;
-
+/*making colums change based on width*/
+.row {
+  -webkit-columns: 2 200px;
+  -moz-columns: 2 200px;
+  columns: 2 200px;
+  text-align: center;
 }
+
+.col-8 {
+  min-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 30px 0px 30px;
+}
+
+.col {
+  min-width: 350px;
+  padding: 60px 30px;
+  margin: 0 auto;
+}
+
+/*styling about section*/
+.info {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  padding: 25px;
+  margin: 20px 20px 0 20px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Comfortaa', cursive;
+}
+
+/*styling picture*/
+img {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 20px;
+    border-color: rgba(0, 0, 0, 0.5);
+  }
