@@ -5,7 +5,7 @@ body {
   background-repeat: no-repeat;
   min-width: 100%;
   min-height: 700px;
-
+  font-family: 'Comfortaa', cursive;
   color: white;
 }
 
@@ -14,6 +14,11 @@ body {
   font-size: 100px;
   font-family: 'Yellowtail', cursive;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: rgba(84, 1, 59, 1) !important;
+    border-color: rgba(84, 1, 59, 1);
 }
 
 .container {
