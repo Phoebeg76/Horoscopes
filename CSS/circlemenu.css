@@ -1,16 +1,8 @@
-
-/** {
-  margin: 0;
-  padding: 0px;
-  -webkit-backface-visibility: hidden;
-}*/
-
-
 /*WRAPPER*/
 .container {
   position: relative;
   margin: 10px auto;
-  padding: 10px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -214,5 +206,6 @@ img {
 #signdescription {
   text-align: center;
   padding: 40px 10px;
+  margin-top: 60px;
 
 }
