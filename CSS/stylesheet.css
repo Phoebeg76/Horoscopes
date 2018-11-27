@@ -5,9 +5,15 @@ body {
   background-repeat: no-repeat;
   min-width: 100%;
   min-height: 700px;
+  font-family: 'Comfortaa', cursive;
 
   color: white;
 }
+
+nav {
+  border-color: rgba(239, 124, 205, 0.7);
+}
+
 .Title {
   text-align: center;
   font-size: 100px;
