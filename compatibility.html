@@ -15,12 +15,12 @@
    <!-- link to google fonts stylesheet-->
    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
 
-   <title>Compatability</title>
+   <title>Compatibility</title>
 
 </head>
 
 <body>
-  <h1 class="Title">Compatability Checker</h1>
+  <h1 class="Title">Compatibility Checker</h1>
 
   <!-- Compatability checker -->
   <!-- check indentation -->
@@ -30,46 +30,391 @@
       <div class="matcher_inner">
         <div class="matcher_content">
           <h3>Choose 2 signs and learn if you’re compatible.</h3>
-            <select class="first_stars" id="first_option">
-              <option value="Select">Select</option>
-              <option value="aries">Aries</option>
-              <option value="taurus">Taurus</option>
-              <option value="gemini">Gemini</option>
-              <option value="cancer">Cancer</option>
-              <option value="leo">Leo</option>
-              <option value="virgo">Virgo</option>
-              <option value="libra">Libra</option>
-              <option value="scorpio">Scorpio</option>
-              <option value="sagittarius">Sagittarius</option>
-              <option value="capricorn">Capricorn</option>
-              <option value="aquarius">Aquarius</option>
-              <option value="pisces">Pisces</option>
+            <select id="first">
+              <option value="select">select</option>
+              <option value="aries">aries</option>
+              <option value="taurus">taurus</option>
+              <option value="gemini">gemini</option>
+              <option value="cancer">cancer</option>
+              <option value="leo">leo</option>
+              <option value="virgo">virgo</option>
+              <option value="libra">libra</option>
+              <option value="scorpio">scorpio</option>
+              <option value="sagittarius">sagittarius</option>
+              <option value="capricorn">capricorn</option>
+              <option value="aquarius">aquarius</option>
+              <option value="pisces">pisces</option>
             </select>
-            <select class="first_stars" id="second_option">
-              <option value="Select">Select</option>
-              <option value="aries">Aries</option>
-              <option value="taurus">Taurus</option>
-              <option value="gemini">Gemini</option>
-              <option value="cancer">Cancer</option>
-              <option value="leo">Leo</option>
-              <option value="virgo">Virgo</option>
-              <option value="libra">Libra</option>
-              <option value="scorpio">Scorpio</option>
-              <option value="sagittarius">Sagittarius</option>
-              <option value="capricorn">Capricorn</option>
-              <option value="aquarius">Aquarius</option>
-              <option value="pisces">Pisces</option>
+            <select id="second">
+              <option value="select">select</option>
+              <option value="aries">aries</option>
+              <option value="taurus">taurus</option>
+              <option value="gemini">gemini</option>
+              <option value="cancer">cancer</option>
+              <option value="leo">leo</option>
+              <option value="virgo">virgo</option>
+              <option value="libra">libra</option>
+              <option value="scorpio">scorpio</option>
+              <option value="sagittarius">sagittarius</option>
+              <option value="capricorn">capricorn</option>
+              <option value="aquarius">aquarius</option>
+              <option value="pisces">pisces</option>
             </select>
             <!-- increase padding between choices and button -->
-            <div class='match_me'>
-              <button type='submit' class='button large'>MATCH ME</button>
-            </div>
+  <!--          <div class='match_me'>
+              <button type='submit' id='button'>MATCH ME</button>
+            </div> -->
           </div>
         </div>
       </div>
     </div>
+  </div>
 
 <!-- end of compatability checker -->
+<div class="result" data-first="aries" data-second="aries">Any two fire signs call for explosions, but even more so when both are Aries!
+  Aries signs are extremely loyal and don't trust easily, finding someone who shares these traits can be electrifying or combustible.
+But, there's a tendency to become too attached to each other, don't forget to see your friends and family too!</div>
+<div class="result" data-first="aries" data-second="taurus">Aries signs tend to be fiery and dynamic, whilst a Taurus is much more grounded.
+You'll either love and appreciate these differences, or it could prove overwhelming.
+Try to understand each other and embrace the different speeds at which you each tackle life!</div>
+<div class="result" data-first="aries" data-second="gemini">These signs are both intellectual, and love a good conversation, it is a true meeting of minds.
+You both crave adventure, making for a relationship that is never dull!
+You both move through life at tremendous speed, you’ll be glad to find someone who can finally keep up with you.
+An emotional bond could be difficult, with Aries need for adventure and the twin personality of the Gemini, it can be difficult to get any bonding time!</div>
+<div class="result" data-first="aries" data-second="cancer">The nurturing nature of Cancer is often much needed by the child-like Aries.
+It’s a challenging yet loving relationship, with a focus on satisfying the emotional needs of each other.
+You share a competitive spirit, and will often act as the other’s personal cheerleader!
+Make sure you manage to create your own individual spaces for when you need your “me time”.</div>
+<div class="result" data-first="aries" data-second="leo">You’re both signs who love the spotlight and aren’t afraid of a bit of attention seeking, which makes for a relationship that is never dull.
+You both understand each other’s need for recognition, and support each other in getting that – so long as you’re not competing for the same spotlight!
+You can both be a little self-centred and bossy, but you’re both happy to have found someone who can keep up with you! </div>
+<div class="result" data-first="aries" data-second="virgo">These two signs can easily butt heads, and are often incompatible in their ideals.
+You’re both pretty neurotic, but if you can find common ground then value it!
+Likely more of a successful business partnership than a romantic one. </div>
+<div class="result" data-first="aries" data-second="libra">Possibly a passionate, yet feisty, pairing!
+An immediate chemistry which will soon dissolve, but that doesn’t mean it won’t work!
+You’re both very dreamy signs, but it’s important to come back down to Earth once in a while to maintain your idealistic match.
+The impulsiveness of Aries may prove too much for peaceful Libra, but compromise is key!</div>
+<div class="result" data-first="aries" data-second="scorpio">There’s usually an immediate chemistry between Aries and Scorpio.
+You’re both competitive, untrusting, and private. So who will make the first move?
+The pairing with the most attraction, it can be difficult to separate what’s physical from what is emotional.
+Make sure you figure out what kind of relationship you both want before jumping into anything serious.</div>
+<div class="result" data-first="aries" data-second="sagittarius">Twin fire signs, you both cherish independence and excitement.
+This makes for some incredible joint adventures, but makes it difficult for you both to settle down.
+Once you’ve started a relationship, it’s important to set time aside for some more romantic moments, otherwise your continuous adventures may force you back into a platonic partnership.</div>
+<div class="result" data-first="aries" data-second="capricorn">A usually impulsive Aries often craves structure and certainty from a partner, making responsible and protective Capricorn a good match.
+It’s a complimentary but demanding pairing.
+If calm Capricorn has to continue looking after the unruly Aries, it may father resentment from the usually generous goat.
+Aries will need to step up a bit within the relationship, and Capricorn will need to learn when to say “no” to Aries demands.</div>
+<div class="result" data-first="aries" data-second="aquarius">Two opinionated signs who can’t help but debate, which can lead to explosions.
+Often a complementary and exciting pairing that lends itself to a best friend dynamic more than a romantic one.
+Laid-back Aquarius chills out the impulsive Aries, whilst Aries pushes Aquarius to live life more passionately.
+While you both love to debate, you also have tempers that can explode unpredictably. </div>
+<div class="result" data-first="aries" data-second="pisces">Both Pisces and Aries have their heads up in space, making them imaginative and cerebral.
+Sometimes, this makes the pairing dynamic, other times it causes brooding and resentment.
+You’re both prone to spells of anger and annoyance, but you know how to cheer the other up.
+You collaborate well, as long as your “bad days” don’t overlap! </div>
+<div class="result" data-first="taurus" data-second="aries">Aries signs tend to be fiery and dynamic, whilst a Taurus is much more grounded.
+You'll either love and appreciate these differences, or it could prove overwhelming.
+Try to understand each other and embrace the different speeds at which you each tackle life!</div>
+<div class="result" data-first="taurus" data-second="taurus">A Taurus-Taurus relationship is grounded, stabilising, and practical.
+You both understand each other’s needs for long-term security and you love to plan for the future!
+Whatever your type of partnership (romantic, platonic,…), it’s solid as a rock.
+Before making any long term commitments, make sure you reveal your rebellious side to each other! </div>
+<div class="result" data-first="taurus" data-second="gemini">A Taurus-Gemini partnership is dynamic yet structured.
+Your signs are extremely different, but this is exactly where the excitement lies!
+Taurus gets an exhilarating roller-coaster ride from the ever-changing Gemini who, in turn, gets some much-needed structure in return.
+Often a good later-in-life pairing, when Gemini has had their time being wild and Taurus has already lived some of their life with their usual structure. </div>
+<div class="result" data-first="taurus" data-second="cancer">Akin to high school sweethearts, there’s a homespun quality to you two.
+Taurus and Cancer are both security-minded, traditional, and family-oriented; so domestic bliss is the theme here!
+However, you don’t want to make your home too much of a bubble!
+Get out for a while and remember to socialise with others as a couple. </div>
+<div class="result" data-first="taurus" data-second="leo">When Taurus and Leo come together, its sensual and luxurious!
+You both love the finer things in life, which can lead to over-indulgence. Remember to lean on Taurus for their keen budgeting skills!
+When the Leo ego meets the Taurus stubborn streak, the battles can be epic.
+Be prepared to let little things go, otherwise you’ll never see eye-to-eye. </div>
+<div class="result" data-first="taurus" data-second="virgo">Any kind of Taurus and Virgo relationship is grounding yet neurotic!
+You both tend to shower each other with attention and gifts, but this can sometimes lead to arguments of spending.
+As twin Earth signs, you will find this a stabilising relationship. </div>
+<div class="result" data-first="taurus" data-second="libra">When Taurus and Libra come together for love or any kind of relationship, it’s beautifying and harmonious, but also superficial at times.
+These two pleasure-seeking signs love the finer things in life, but make sure you share the same values too.
+Try not to focus too much on the superficial!</div>
+<div class="result" data-first="taurus" data-second="scorpio">For Taurus and Scorpio, opposites certainly do attract!
+These two privacy-seeking signs prefer the comforts of home, but this can lead to isolation is you don’t force yourselves to get out sometimes.
+You’re both music lovers and incredibly creative, but it’s good to have some hobbies separate from each other too. </div>
+<div class="result" data-first="taurus" data-second="sagittarius">This partnership may look odd on paper, but it can be very complimentary.
+Taurus helps wandering Sagittarius to establish roots, while Sagittarius encourages the Bull to take more risks.
+Taurus believes in investing in long-lasting, quality products, whilst Sagittarius is often swept away by impulse. Finding a financial advisor may be key! </div>
+<div class="result" data-first="taurus" data-second="capricorn">A Taurus and Capricorn pairing is solid as a rock!
+You’re both security-seeking signs who love to plant for the future, making for a traditional and family-oriented relationship.
+You might forget to live in the moment with all the future-planning, so try to have some spontaneity! </div>
+<div class="result" data-first="taurus" data-second="aquarius">Taurus and Aquarius coming together can be passionate but also aggressive!
+You are complete opposites, but you can balance each other out when you each play to your strengths.
+You’ll need to give each other lots of space and independence to keep this one alive! </div>
+<div class="result" data-first="taurus" data-second="pisces">An ethereal and dreamy relationship is on the cards for you two.
+While this may seem idealistic, it does mean that your heads can get stuck up in the clouds at times.
+You each appreciate life’s guilty pleasures, but watch out for excess as you indulge together. </div>
+<div class="result" data-first="gemini" data-second="aries">These signs are both intellectual, and love a good conversation, it is a true meeting of minds.
+You both crave adventure, making for a relationship that is never dull!
+You both move through life at tremendous speed, you’ll be glad to find someone who can finally keep up with you.
+An emotional bond could be difficult, with Aries need for adventure and the twins personality of the Gemini, it can be difficult to get any bonding time!</div>
+<div class="result" data-first="gemini" data-second="taurus">A Taurus-Gemini partnership is dynamic yet structured.
+Your signs are extremely different, but this is exactly where the excitement lies!
+Taurus gets an exhilarating roller-coaster ride from the ever-changing Gemini who, in turn, gets some much-needed structure in return.
+Often a good later-in-life pairing, when Gemini has had their time being wild and Taurus has already lived some of their life with their usual structure. </div>
+<div class="result" data-first="gemini" data-second="gemini">When two Geminis come together in any kind of relationship, it’s unpredictable and moody!
+As over-analysers, you love a healthy debate. But watch out, as they can easily lead to heated arguments!
+A relationship between two Geminis often works as you both understand each other’s quirks. </div>
+<div class="result" data-first="gemini" data-second="cancer">A Gemini and Cancer partnership is dynamic but also sensitive.
+Despite being polar-opposites, you manage to complement each other well since you both have many layers to your moods.
+Your shared love for cultural activities and socialising makes for a stimulating relationship.
+Creative compromises will have to be struck if your union is going to last. </div>
+<div class="result" data-first="gemini" data-second="leo">A dramatic and playful partnership!
+These two theatrical signs love adventure and have a wide array of interests, which can lead to overly packed schedules.
+A Gemini-Leo relationship is full of hopes and dreams, since you both understand each other’s outsized ambition.
+However, in this pairing it’s easy to get scattered among too many different projects and interests. Try to find some time for each other! </div>
+<div class="result" data-first="gemini" data-second="virgo">These two signs are skilled conversationalists, thanks to sharing Mercury as their planetary ruler.
+You both have a passion for discovering information, and love analysing and exchanging ideas.
+However, you approach the world from vastly different angles, Gemini is impulsive whilst Virgo is practical and grounded.
+Try not to talk each other out of the relationship! </div>
+<div class="result" data-first="gemini" data-second="libra">These two social butterflies have met their match!
+There’s an easy attraction between these two air signs, and you quickly become the King and the Queen of your social scene.
+However, when the chameleon Gemini meets the indecisive Libra there are no certainties and you may struggle to reach conclusions together.
+Fast moving Gemini can upset patient Libra’s equilibrium, while Libra’s messy habits can unnerve the organised Gemini.
+Spend lots of quality time together to strengthen your bond! </div>
+<div class="result" data-first="gemini" data-second="scorpio">This partnership is intense and dramatic!
+You each love a good game of cat and mouse, and always ask plenty of questions.
+But the build-up is often the best part of this match, so don’t stop playing games once you’ve started your relationship.
+A Gemini-Scorpio relationship is intellectually stimulating, since you both understand the unending quest for the truth. </div>
+<div class="result" data-first="gemini" data-second="sagittarius">When Gemini and Sagittarius come together for a relationship, it’s dynamic and engaging.
+These expert communicators will never run out of things to discuss.
+As opposite signs, you’re not always compatible, but when you are there is an immediate attraction between you two.
+But, since you both love travel and adventure, it may be hard to pin each other down. </div>
+<div class="result" data-first="gemini" data-second="capricorn">These two ambitious signs are pro networkers, and could each talk for hours.
+Talkative Gemini has met their match with stoic Capricorn, who’s also comfortable staying silent for long periods of time.
+Gemini’s forward-thinking mind-set will either clash or mesh with Capricorn’s old world values.
+Middle ground is often difficult to reach, but stay open to compromise! </div>
+<div class="result" data-first="gemini" data-second="aquarius">As fellow truth-seekers, you’re both on a quest to solve life’s mysteries.
+You’re both very intellectual and together you can come up with amazing ideas.
+Gemini is better at starting the project, whilst Aquarius ensures you both make it to the finish line!
+However, your relationship is so intellectual that neither of you are great at dealing with your feelings for each other. </div>
+<div class="result" data-first="gemini" data-second="pisces">Both Gemini and Pisces prefer fantasy over reality, and you will quickly become one another’s creative muse.
+Both signs are prone to mood swings, so this pairing can be quite an emotional roller coaster!
+You’re both dual signs – Gemini is symbolised by the Twins and Pisces by two Fish swimming away from each other.
+As a result, it can feel like there’s four people in this relationship – none of whom can make a decision that sticks! </div>
+<div class="result" data-first="cancer" data-second="aries">The nurturing nature of Cancer is often much needed by the child-like Aries.
+It’s a challenging yet loving relationship, with a focus on satisfying the emotional needs of each other.
+You share a competitive spirit, and will often act as the other’s personal cheerleader!
+Make sure you manage to create your own individual spaces for when you need your “me time”.</div>
+<div class="result" data-first="cancer" data-second="taurus">Akin to high school sweethearts, there’s a homespun quality to you two.
+Taurus and Cancer are both security-minded, traditional, and family-oriented; so domestic bliss is the theme here!
+However, you don’t want to make your home too much of a bubble!
+Get out for a while and remember to socialise with others as a couple. </div>
+<div class="result" data-first="cancer" data-second="gemini">A Gemini and Cancer partnership is dynamic but also sensitive.
+Despite being polar-opposites, you manage to complement each other well since you both have many layers to your moods.
+Your shared love for cultural activities and socialising makes for a stimulating relationship.
+Creative compromises will have to be struck if your union is going to last. </div>
+<div class="result" data-first="cancer" data-second="cancer"></div>
+<div class="result" data-first="cancer" data-second="leo"></div>
+<div class="result" data-first="cancer" data-second="virgo"></div>
+<div class="result" data-first="cancer" data-second="libra"></div>
+<div class="result" data-first="cancer" data-second="scorpio"></div>
+<div class="result" data-first="cancer" data-second="sagittarius"></div>
+<div class="result" data-first="cancer" data-second="capricorn"></div>
+<div class="result" data-first="cancer" data-second="aquarius"></div>
+<div class="result" data-first="cancer" data-second="pisces"></div>
+<div class="result" data-first="leo" data-second="aries">You’re both signs who love the spotlight and aren’t afraid of a bit of attention seeking, which makes for a relationship that is never dull.
+You both understand each other’s need for recognition, and support each other in getting that – so long as you’re not competing for the same spotlight!
+You can both be a little self-centred and bossy, but you’re both happy to have found someone who can keep up with you! </div>
+<div class="result" data-first="leo" data-second="taurus">When Taurus and Leo come together, its sensual and luxurious!
+You both love the finer things in life, which can lead to over-indulgence. Remember to lean on Taurus for their keen budgeting skills!
+When the Leo ego meets the Taurus stubborn streak, the battles can be epic.
+Be prepared to let little things go, otherwise you’ll never see eye-to-eye. </div>
+<div class="result" data-first="leo" data-second="gemini">A dramatic and playful partnership!
+These two theatrical signs love adventure and have a wide array of interests, which can lead to overly packed schedules.
+A Gemini-Leo relationship is full of hopes and dreams, since you both understand each other’s outsized ambition.
+However, in this pairing it’s easy to get scattered among too many different projects and interests. Try to find some time for each other! </div>
+<div class="result" data-first="leo" data-second="cancer"></div>
+<div class="result" data-first="leo" data-second="leo"></div>
+<div class="result" data-first="leo" data-second="virgo"></div>
+<div class="result" data-first="leo" data-second="libra"></div>
+<div class="result" data-first="leo" data-second="scorpio"></div>
+<div class="result" data-first="leo" data-second="sagittarius"></div>
+<div class="result" data-first="leo" data-second="capricorn"></div>
+<div class="result" data-first="leo" data-second="aquarius"></div>
+<div class="result" data-first="leo" data-second="pisces"></div>
+<div class="result" data-first="virgo" data-second="aries">These two signs can easily butt heads, and are often incompatible in their ideals.
+You’re both pretty neurotic, but if you can find common ground then value it!
+Likely more of a successful business partnership than a romantic one. </div>
+<div class="result" data-first="virgo" data-second="taurus">Any kind of Taurus and Virgo relationship is grounding yet neurotic!
+You both tend to shower each other with attention and gifts, but this can sometimes lead to arguments of spending.
+As twin Earth signs, you will find this a stabilising relationship. </div>
+<div class="result" data-first="virgo" data-second="gemini">These two signs are skilled conversationalists, thanks to sharing Mercury as their planetary ruler.
+You both have a passion for discovering information, and love analysing and exchanging ideas.
+However, you approach the world from vastly different angles, Gemini is impulsive whilst Virgo is practical and grounded.
+Try not to talk each other out of the relationship! </div>
+<div class="result" data-first="virgo" data-second="cancer"></div>
+<div class="result" data-first="virgo" data-second="leo"></div>
+<div class="result" data-first="virgo" data-second="virgo"></div>
+<div class="result" data-first="virgo" data-second="libra"></div>
+<div class="result" data-first="virgo" data-second="scorpio"></div>
+<div class="result" data-first="virgo" data-second="sagittarius"></div>
+<div class="result" data-first="virgo" data-second="capricorn"></div>
+<div class="result" data-first="virgo" data-second="aquarius"></div>
+<div class="result" data-first="virgo" data-second="pisces"></div>
+<div class="result" data-first="libra" data-second="aries">Possibly a passionate, yet feisty, pairing!
+An immediate chemistry which will soon dissolve, but that doesn’t mean it won’t work!
+You’re both very dreamy signs, but it’s important to come back down to Earth once in a while to maintain your idealistic match.
+The impulsiveness of Aries may prove too much for peaceful Libra, but compromise is key!</div>
+<div class="result" data-first="libra" data-second="taurus">When Taurus and Libra come together for love or any kind of relationship, it’s beautifying and harmonious, but also superficial at times.
+These two pleasure-seeking signs love the finer things in life, but make sure you share the same values too.
+Try not to focus too much on the superficial!</div>
+<div class="result" data-first="libra" data-second="gemini">These two social butterflies have met their match!
+There’s an easy attraction between these two air signs, and you quickly become the King and the Queen of your social scene.
+However, when the chameleon Gemini meets the indecisive Libra there are no certainties and you may struggle to reach conclusions together.
+Fast moving Gemini can upset patient Libra’s equilibrium, while Libra’s messy habits can unnerve the organised Gemini.
+Spend lots of quality time together to strengthen your bond! </div>
+<div class="result" data-first="libra" data-second="cancer"></div>
+<div class="result" data-first="libra" data-second="leo"></div>
+<div class="result" data-first="libra" data-second="virgo"></div>
+<div class="result" data-first="libra" data-second="libra"></div>
+<div class="result" data-first="libra" data-second="scorpio"></div>
+<div class="result" data-first="libra" data-second="sagittarius"></div>
+<div class="result" data-first="libra" data-second="capricorn"></div>
+<div class="result" data-first="libra" data-second="aquarius"></div>
+<div class="result" data-first="libra" data-second="pisces"></div>
+<div class="result" data-first="scorpio" data-second="aries">There’s usually an immediate chemistry between Aries and Scorpio.
+You’re both competitive, untrusting, and private. So who will make the first move?
+The pairing with the most attraction, it can be difficult to separate what’s physical from what is emotional.
+Make sure you figure out what kind of relationship you both want before jumping into anything serious.</div>
+<div class="result" data-first="scorpio" data-second="taurus">For Taurus and Scorpio, opposites certainly do attract!
+These two privacy-seeking signs prefer the comforts of home, but this can lead to isolation is you don’t force yourselves to get out sometimes.
+You’re both music lovers and incredibly creative, but it’s good to have some hobbies separate from each other too. </div>
+<div class="result" data-first="scorpio" data-second="gemini">This partnership is intense and dramatic!
+You each love a good game of cat and mouse, and always ask plenty of questions.
+But the build-up is often the best part of this match, so don’t stop playing games once you’ve started your relationship.
+A Gemini-Scorpio relationship is intellectually stimulating, since you both understand the unending quest for the truth. </div>
+<div class="result" data-first="scorpio" data-second="cancer"></div>
+<div class="result" data-first="scorpio" data-second="leo"></div>
+<div class="result" data-first="scorpio" data-second="virgo"></div>
+<div class="result" data-first="scorpio" data-second="libra"></div>
+<div class="result" data-first="scorpio" data-second="scorpio"></div>
+<div class="result" data-first="scorpio" data-second="sagittarius"></div>
+<div class="result" data-first="scorpio" data-second="capricorn"></div>
+<div class="result" data-first="scorpio" data-second="aquarius"></div>
+<div class="result" data-first="scorpio" data-second="pisces"></div>
+<div class="result" data-first="sagittarius" data-second="aries">Twin fire signs, you both cherish independence and excitement.
+This makes for some incredible joint adventures, but makes it difficult for you both to settle down.
+Once you’ve started a relationship, it’s important to set time aside for some more romantic moments, otherwise your continuous adventures may force you back into a platonic partnership.</div>
+<div class="result" data-first="sagittarius" data-second="taurus">This partnership may look odd on paper, but it can be very complimentary.
+Taurus helps wandering Sagittarius to establish roots, while Sagittarius encourages the Bull to take more risks.
+Taurus believes in investing in long-lasting, quality products, whilst Sagittarius is often swept away by impulse. Finding a financial advisor may be key! </div>
+<div class="result" data-first="sagittarius" data-second="gemini">When Gemini and Sagittarius come together for a relationship, it’s dynamic and engaging.
+These expert communicators will never run out of things to discuss.
+As opposite signs, you’re not always compatible, but when you are there is an immediate attraction between you two.
+But, since you both love travel and adventure, it may be hard to pin each other down. </div>
+<div class="result" data-first="sagittarius" data-second="cancer"></div>
+<div class="result" data-first="sagittarius" data-second="leo"></div>
+<div class="result" data-first="sagittarius" data-second="virgo"></div>
+<div class="result" data-first="sagittarius" data-second="libra"></div>
+<div class="result" data-first="sagittarius" data-second="scorpio"></div>
+<div class="result" data-first="sagittarius" data-second="sagittarius"></div>
+<div class="result" data-first="sagittarius" data-second="capricorn"></div>
+<div class="result" data-first="sagittarius" data-second="aquarius"></div>
+<div class="result" data-first="sagittarius" data-second="pisces"></div>
+<div class="result" data-first="capricorn" data-second="aries">A usually impulsive Aries often craves structure and certainty from a partner, making responsible and protective Capricorn a good match.
+It’s a complimentary but demanding pairing.
+If calm Capricorn has to continue looking after the unruly Aries, it may father resentment from the usually generous goat.
+Aries will need to step up a bit within the relationship, and Capricorn will need to learn when to say “no” to Aries demands.</div>
+<div class="result" data-first="capricorn" data-second="taurus">A Taurus and Capricorn pairing is solid as a rock!
+You’re both security-seeking signs who love to plant for the future, making for a traditional and family-oriented relationship.
+You might forget to live in the moment with all the future-planning, so try to have some spontaneity! </div>
+<div class="result" data-first="capricorn" data-second="gemini">These two ambitious signs are pro networkers, and could each talk for hours.
+Talkative Gemini has met their match with stoic Capricorn, who’s also comfortable staying silent for long periods of time.
+Gemini’s forward-thinking mind-set will either clash or mesh with Capricorn’s old world values.
+Middle ground is often difficult to reach, but stay open to compromise! </div>
+<div class="result" data-first="capricorn" data-second="cancer"></div>
+<div class="result" data-first="capricorn" data-second="leo"></div>
+<div class="result" data-first="capricorn" data-second="virgo"></div>
+<div class="result" data-first="capricorn" data-second="libra"></div>
+<div class="result" data-first="capricorn" data-second="scorpio"></div>
+<div class="result" data-first="capricorn" data-second="sagittarius"></div>
+<div class="result" data-first="capricorn" data-second="capricorn"></div>
+<div class="result" data-first="capricorn" data-second="aquarius"></div>
+<div class="result" data-first="capricorn" data-second="pisces"></div>
+<div class="result" data-first="aquarius" data-second="aries">Two opinionated signs who can’t help but debate, which can lead to explosions.
+Often a complementary and exciting pairing that lends itself to a best friend dynamic more than a romantic one.
+Laid-back Aquarius chills out the impulsive Aries, whilst Aries pushes Aquarius to live life more passionately.
+While you both love to debate, you also have tempers that can explode unpredictably.</div>
+<div class="result" data-first="aquarius" data-second="taurus">Taurus and Aquarius coming together can be passionate but also aggressive!
+You are complete opposites, but you can balance each other out when you each play to your strengths.
+You’ll need to give each other lots of space and independence to keep this one alive! </div>
+<div class="result" data-first="aquarius" data-second="gemini">As fellow truth-seekers, you’re both on a quest to solve life’s mysteries.
+You’re both very intellectual and together you can come up with amazing ideas.
+Gemini is better at starting the project, whilst Aquarius ensures you both make it to the finish line!
+However, your relationship is so intellectual that neither of you are great at dealing with your feelings for each other. </div>
+<div class="result" data-first="aquarius" data-second="cancer"></div>
+<div class="result" data-first="aquarius" data-second="leo"></div>
+<div class="result" data-first="aquarius" data-second="virgo"></div>
+<div class="result" data-first="aquarius" data-second="libra"></div>
+<div class="result" data-first="aquarius" data-second="scorpio"></div>
+<div class="result" data-first="aquarius" data-second="sagittarius"></div>
+<div class="result" data-first="aquarius" data-second="capricorn"></div>
+<div class="result" data-first="aquarius" data-second="aquarius"></div>
+<div class="result" data-first="aquarius" data-second="pisces"></div>
+<div class="result" data-first="pisces" data-second="aries">Both Pisces and Aries have their heads up in space, making them imaginative and cerebral.
+Sometimes, this makes the pairing dynamic, other times it causes brooding and resentment.
+You’re both prone to spells of anger and annoyance, but you know how to cheer the other up.
+You collaborate well, as long as your “bad days” don’t overlap! </div>
+<div class="result" data-first="pisces" data-second="taurus">An ethereal and dreamy relationship is on the cards for you two.
+While this may seem idealistic, it does mean that your heads can get stuck up in the clouds at times.
+You each appreciate life’s guilty pleasures, but watch out for excess as you indulge together. </div>
+<div class="result" data-first="pisces" data-second="gemini">Both Gemini and Pisces prefer fantasy over reality, and you will quickly become one another’s creative muse.
+Both signs are prone to mood swings, so this pairing can be quite an emotional roller coaster!
+You’re both dual signs – Gemini is symbolised by the Twins and Pisces by two Fish swimming away from each other.
+As a result, it can feel like there’s four people in this relationship – none of whom can make a decision that sticks! </div>
+<div class="result" data-first="pisces" data-second="cancer"></div>
+<div class="result" data-first="pisces" data-second="leo"></div>
+<div class="result" data-first="pisces" data-second="virgo"></div>
+<div class="result" data-first="pisces" data-second="libra"></div>
+<div class="result" data-first="pisces" data-second="scorpio"></div>
+<div class="result" data-first="pisces" data-second="sagittarius"></div>
+<div class="result" data-first="pisces" data-second="capricorn"></div>
+<div class="result" data-first="pisces" data-second="aquarius"></div>
+<div class="result" data-first="pisces" data-second="pisces"></div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<!-- JavaScript for the compatability checker -->
+
+<script>
+//$('#button').on('click', function() {
+  $('#first, #second').on('change', function(){
+    // set reference to select elements
+    var first = $('#first');
+    var second = $('#second');
+
+    // check if user has made a selection on all dropdowns
+    if ( first.prop('selectedIndex') > 0 && second.prop('selectedIndex') > 0 ){
+        // remove active class from current active div element
+        $('.result.active').removeClass('active');
+
+        // get all result divs, and filter for matching data attributes
+        $('.result').filter('[data-first="' + first.val() + '"][data-second="' + second.val() + '"]').addClass('active');
+    }
+    else {
+        $('.result.active').removeClass('active');
+    }
+  //})
+  });
+</script>
+
+
 
 </body>
 
