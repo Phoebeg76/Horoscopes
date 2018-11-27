@@ -27,7 +27,7 @@ body {
   margin-right: 400px;
   padding: 10px;
   /*background-image: url("../images/compatabilitybackground.jpg");*/
-  background-color: rgba(84, 1, 59, 0.7)
+  background-color: rgba(84, 1, 59, 0.7);
   }
 .matcher {
     margin: 0;
@@ -71,11 +71,11 @@ nav {
 
 @media (max-width: 1000px) {
       .Title {
-        font-size: 40px;
+        font-size: 60px;
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
-        border-radius: 20px;
+        border-radius: 40px;
         text-align: center;
         font-family: 'Yellowtail', cursive;
         background-color: rgba(0, 0, 0, 0.5);
