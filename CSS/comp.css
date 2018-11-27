@@ -7,9 +7,14 @@ body {
   min-height: 700px;
   text-align: center;
   color: white;
+  font-family: 'Comfortaa', cursive;
 }
 
 .Title {
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 40px;
   text-align: center;
   font-size: 100px;
   font-family: 'Yellowtail', cursive;
@@ -20,7 +25,7 @@ body {
   margin-top: 060px;
   margin-left: 400px;
   margin-right: 400px;
-  padding-bottom: 60px;
+  padding: 10px;
   /*background-image: url("../images/compatabilitybackground.jpg");*/
   background-color: rgba(84, 1, 59, 0.7)
   }
@@ -30,8 +35,9 @@ body {
     background-size: contain;
     }
 .matcher_outer {
-  padding: 20px 20px 10px;
-  padding-top: 65px;
+  /* padding: 20px 20px 10px;
+  padding-top: 65px; */
+  text-align: center;
   overflow: hidden;
   }
 .matcher h3 {
@@ -62,3 +68,22 @@ nav {
   border: 5px;
   border-color: rgba(239, 124, 205, 0.7);
 }
+
+@media (max-width: 1000px) {
+      .Title {
+        font-size: 40px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 20px;
+        text-align: center;
+        font-family: 'Yellowtail', cursive;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .matcher_wrapper {
+        margin: 20px;
+      }
+      .result.active {
+        margin: 25px;
+      }
+    }
