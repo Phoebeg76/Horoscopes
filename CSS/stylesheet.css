@@ -10,15 +10,13 @@ body {
   color: white;
 }
 
-nav {
-  border-color: rgba(239, 124, 205, 0.7);
-}
 
 .Title {
   text-align: center;
   font-size: 100px;
   font-family: 'Yellowtail', cursive;
   background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 0;
 }
 
 .container {
