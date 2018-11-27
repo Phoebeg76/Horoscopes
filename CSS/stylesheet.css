@@ -19,6 +19,14 @@ body {
   padding: 15px 0;
 }
 
+.display-1 {
+  font-size: 60px;
+}
+
+.display-2 {
+  font-size: 40px;
+}
+
 .container {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 30px;
