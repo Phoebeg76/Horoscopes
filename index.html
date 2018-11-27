@@ -72,13 +72,13 @@
   <div class="bottom">
     <div class="container-fluid">
         <div class="row">
-          <div class="col-sm">
+          <div class="col-md-8">
             <h1 class="display-1">About</h1>
             <p>Here we can put some information about astrology and horoscopes, how the website works.
               Can say that there is a contact form in the contact section, etc.</p>
           </div>
-          <div class="col-sm">
-            <h2 class="display-2">Contact Us!</h2>
+          <div class="col-md-4">
+            <h2 class="display-2">Keep in Touch!</h2>
             <form>
               <div class="form-row">
                 <div class="form-group col-md-6">
@@ -120,7 +120,7 @@
                   </label>
                 </div>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary" id=formbutton onclick="myFunction()">Submit</button>
             </form>
           </div>
         </div>
@@ -305,6 +305,12 @@
           }
       </script>
 <!-- End of circle menu script -->
+<!-- Contact Form Script -->
+<script>
+function myFunction() {
+    alert("Thanks for subscribing! We'll be in touch soon");
+}
+</script>
 
 </body>
 
