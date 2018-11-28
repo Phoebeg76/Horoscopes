@@ -4,6 +4,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   min-width: 100%;
   max-width: 100%;
   overflow-x: hidden;
@@ -27,14 +28,6 @@ body {
   font-size: 40px;
 }
 
-/*making colums change based on width*/
-.row {
-  -webkit-columns: 2 200px;
-  -moz-columns: 2 200px;
-  columns: 2 200px;
-  text-align: center;
-}
-
 .col-8 {
   min-width: 350px;
   margin-left: auto;
@@ -46,6 +39,7 @@ body {
   min-width: 350px;
   padding: 60px 30px;
   margin: 0 auto;
+  text-align: center;
 }
 
 /*styling about section*/
@@ -75,18 +69,22 @@ img {
   margin: 15px 0 0 0;
   padding: 15px;
   display:inline-block;
-  text-align: center;
   font-size: 18px;
   font-family: 'Comfortaa', cursive;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 25px;
+  -webkit-transition: transform 0.5s; /* Safari */
+  -moz-transition: transform 0.5s; /* Firefox */
+  -o-transition: transform 0.5s; /* Opera */
+  transition: transform 0.5s;
 }
 
 .link:hover {
   text-decoration: none;
   color: white;
   background: rgba(0, 0, 0, 0.8);
+  transform: scale(1.05);
 }
 
 /*footer and social media*/
@@ -142,4 +140,29 @@ footer {
 .fa-pinterest {
   background: #cb2027;
   color: white;
+}
+
+
+/*small screen style*/
+@media (max-width: 767px) {
+
+  .title {
+    font-size: 60px
+  }
+
+  .date {
+    font-size: 25px
+  }
+
+  .info {
+    font-size: 15px;
+    margin: 0 auto;
+    min-width: 95%;
+    max-width: 95%;
+  }
+
+  img {
+    max-width: 250px;
+  }
+
 }
