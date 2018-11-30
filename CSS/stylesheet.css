@@ -86,7 +86,7 @@ br {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
 
-  border-top: 20px solid grey;
+  border-top: 20px solid  rgba(100, 5, 75, 1);
   margin: 0 auto;
 }
 
@@ -266,9 +266,14 @@ img {
 /*content next to circle spinner styling*/
 #signdescription {
   text-align: center;
-  padding: 40px 10px;
-  margin-top: 30px;
-  min-width: 400px;
+  padding: 40px 30px;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 400px;
+}
+
+#signdescription h1 {
+  font-size: 30px;
 }
 
 #signdescription p {
@@ -358,6 +363,10 @@ footer {
 
 /*small screen style*/
 @media (max-width: 767px) {
+
+  .Title {
+    font-size: 70px;
+  }
 
   .display-1 {
     font-size: 25px;
