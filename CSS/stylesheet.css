@@ -23,14 +23,29 @@ br {
   margin: 10px 0;
 }
 
+.display-1 {
+  font-size: 50px;
+}
+
 /*about section*/
 .col-md-8 {
   margin: 0 auto;
+  margin-left: 5%;
+  max-width: 53%;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
 }
 
 /*contact form*/
 .col-md-4 {
   margin: 0 auto;
+  margin-right: 5%;
+  max-width: 32%;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /*Form submit button */
@@ -71,7 +86,7 @@ br {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
 
-  border-top: 20px solid grey;
+  border-top: 20px solid  rgba(100, 5, 75, 1);
   margin: 0 auto;
 }
 
@@ -251,9 +266,14 @@ img {
 /*content next to circle spinner styling*/
 #signdescription {
   text-align: center;
-  padding: 40px 10px;
-  margin-top: 30px;
-  min-width: 400px;
+  padding: 40px 30px;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 400px;
+}
+
+#signdescription h1 {
+  font-size: 30px;
 }
 
 #signdescription p {
@@ -344,18 +364,27 @@ footer {
 /*small screen style*/
 @media (max-width: 767px) {
 
-  .col-md-8 {
-    max-width: 90%;
+  .Title {
+    font-size: 70px;
   }
 
+  .display-1 {
+    font-size: 25px;
+  }
+
+  .col-md-8 {
+    max-width: 90%;
+    font-size: 14px;
+  }
 
   .col-md-4 {
     max-width: 90%;
+    margin-top: 30px;
   }
 
   /*circle menu on small screen*/
   .circletitle {
-    font-size: 30px;
+    font-size: 25px;
   }
   .container {
     max-width: 90%;
@@ -377,7 +406,7 @@ footer {
 
    /*style carousel on small screen*/
    .constellations {
-     font-size: 30px;
+     font-size: 25px;
    }
    #carousel-container {
      max-width: 90%;
