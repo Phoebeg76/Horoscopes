@@ -148,13 +148,13 @@ img {
 
 /*position small circles*/
 .circle li:nth-child(1) {
-  top: 15px;
-  left: 125px;
+  top: 13px;
+  left: 122px;
 }
 
 .circle li:nth-child(2) {
-  top: 30px;
-  left: 180px;
+  top: 28px;
+  left: 178px;
   -webkit-transform: rotate(30deg);
   -moz-transform: rotate(30deg);
   -ms-transform: rotate(30deg);
@@ -164,7 +164,7 @@ img {
 
 .circle li:nth-child(3) {
   top: 70px;
-  left: 220px;
+  left: 218px;
   -webkit-transform: rotate(60deg);
   -moz-transform: rotate(60deg);
   -ms-transform: rotate(60deg);
@@ -204,7 +204,7 @@ img {
 
 .circle li:nth-child(7) {
   top: 235px;
-  left: 125px;
+  left: 123px;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
@@ -213,8 +213,8 @@ img {
 }
 
 .circle li:nth-child(8) {
-  top: 220px;
-  left: 70px;
+  top: 222px;
+  left: 66px;
   -webkit-transform: rotate(210deg);
   -moz-transform: rotate(210deg);
   -ms-transform: rotate(210deg);
@@ -223,8 +223,8 @@ img {
 }
 
 .circle li:nth-child(9) {
-  top: 180px;
-  left: 30px;
+  top: 183px;
+  left: 26px;
   -webkit-transform: rotate(240deg);
   -moz-transform: rotate(240deg);
   -ms-transform: rotate(240deg);
@@ -234,7 +234,7 @@ img {
 
 .circle li:nth-child(10) {
   top: 125px;
-  left: 15px;
+  left: 8px;
   -webkit-transform: rotate(270deg);
   -moz-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
@@ -243,8 +243,8 @@ img {
 }
 
 .circle li:nth-child(11) {
-  top: 70px;
-  left: 30px;
+  top: 68px;
+  left: 25px;
   -webkit-transform: rotate(300deg);
   -moz-transform: rotate(300deg);
   -ms-transform: rotate(300deg);
@@ -253,8 +253,8 @@ img {
 }
 
 .circle li:nth-child(12) {
-  top: 30px;
-  left: 70px;
+  top: 28px;
+  left: 65px;
   -webkit-transform: rotate(330deg);
   -moz-transform: rotate(330deg);
   -ms-transform: rotate(330deg);
