@@ -11,6 +11,7 @@ body {
   min-height: 700px;
   color: white;
   font-family: 'Comfortaa', cursive;
+  position: relative;
 }
 
 /*date and title style*/
