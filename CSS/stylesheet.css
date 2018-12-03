@@ -421,4 +421,8 @@ footer {
    #carousel-container {
      max-width: 90%;
    }
+
+   .names {
+     font-size: 10px;
+   }
 }

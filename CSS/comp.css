@@ -147,4 +147,8 @@ footer {
       .result.active {
         margin: 25px;
       }
+
+      .names {
+        font-size: 10px;
+      }
     }
