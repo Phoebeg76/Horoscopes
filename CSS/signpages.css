@@ -145,6 +145,13 @@ footer {
 /*small screen style*/
 @media (max-width: 767px) {
 
+  html, body {
+  overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
   .title {
     font-size: 60px
   }
