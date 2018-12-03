@@ -17,6 +17,15 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+/*.search {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+} */
+
 /*style breaks*/
 br {
   display: block;
