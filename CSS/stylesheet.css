@@ -390,13 +390,14 @@ footer {
   }
   .menu {
     max-width: 90%;
-    margin: 10px auto;
+    margin: 0px auto;
     padding: 10px 0;
   }
   .menu a{
     font-size: 14px;
     line-height: 44px;
     padding: 10px 15px;
+    border-width: 1px;
   }
   .arrow-down {
     display: none;
