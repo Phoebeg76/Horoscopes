@@ -17,15 +17,6 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/*.search {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-} */
-
 /*style breaks*/
 br {
   display: block;
@@ -398,12 +389,14 @@ footer {
     max-width: 90%;
   }
   .menu {
-    max-width: 95%;
+    max-width: 90%;
     margin: 10px auto;
+    padding: 10px 0;
   }
   .menu a{
     font-size: 14px;
     line-height: 44px;
+    padding: 10px 15px;
   }
   .arrow-down {
     display: none;
