@@ -151,6 +151,7 @@ footer {
   body {
     position: relative;
     width: 100%;
+    background-size: 100% 100%;
   }
 
   .title {
