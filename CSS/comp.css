@@ -148,7 +148,10 @@ footer {
         background-color: rgba(0, 0, 0, 0.5);
       }
       .matcher_wrapper {
-        margin: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 115px;
       }
       .result.active {
         margin: 25px;
