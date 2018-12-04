@@ -71,7 +71,7 @@ nav {
 }
 
 br {
-  line-height: 970%;
+  line-height: 730%;
 }
 
 /*footer and social media*/
@@ -153,6 +153,10 @@ footer {
         margin: 25px;
       }
 
+      br {
+        line-height: 970%;
+      }
+      
       .names {
         font-size: 10px;
       }
