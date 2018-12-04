@@ -360,6 +360,19 @@ footer {
 }
 
 
+/*medium screen style*/
+@media (max-width: 1000px) {
+  .arrow-down {
+    display: none;
+  }
+   .circle {
+      display: none;
+   }
+   #signdescription {
+     display: none;
+   }
+}
+
 /*small screen style*/
 @media (max-width: 767px) {
 
@@ -406,23 +419,23 @@ footer {
   .arrow-down {
     display: none;
   }
-   .circle {
-      display: none;
-   }
-   #signdescription {
-     display: none;
-   }
+  .circle {
+    display: none;
+  }
+  #signdescription {
+    display: none;
+  }
 
 
-   /*style carousel on small screen*/
-   .constellations {
-     font-size: 25px;
-   }
-   #carousel-container {
-     max-width: 90%;
-   }
+  /*style carousel on small screen*/
+  .constellations {
+    font-size: 25px;
+  }
+  #carousel-container {
+    max-width: 90%;
+  }
 
-   .names {
-     font-size: 10px;
-   }
+  .names {
+    font-size: 10px;
+  }
 }
