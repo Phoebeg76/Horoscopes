@@ -70,16 +70,24 @@ nav {
   border-color: rgba(239, 124, 205, 0.7);
 }
 
-br {
-  line-height: 730%;
-}
+/*styling picture*/
+img {
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 20px;
+    border-color: rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+  }
 
 /*footer and social media*/
 footer {
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 10px 0 1px 0;
-  margin-top: 160px;
+  margin-top: 40px;
 }
 
 /*style our names*/
@@ -153,11 +161,16 @@ footer {
         margin: 25px;
       }
 
-      br {
-        line-height: 970%;
+      img {
+        max-width: 350px;
+        margin-top: 15px;
       }
-      
+
       .names {
         font-size: 10px;
+      }
+
+      footer {
+        margin-top: 25px;
       }
     }
